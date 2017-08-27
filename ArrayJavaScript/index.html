@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Frutas</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <script>
+            
+            var frutas = [];
+            var frut = "n";
+            
+            do {
+                
+                var fruta = prompt( " Digite um nome de um futa: ");
+                frutas.push(fruta);
+                
+                frut = prompt("Deseja continuar SIM ou NÂO?");
+            } while (frut.toLowerCase().indexOf ('s')!=-1);
+            
+            for( var i = 0 , tam =  frutas.length; i < tam; i++) {
+                conlole.log(frutas[i]);
+            }
+        </script>
+    </body>
+</html>
