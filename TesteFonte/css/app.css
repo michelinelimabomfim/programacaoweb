@@ -1,0 +1,10 @@
+body{
+    font-size: 14px;
+    font-style: italic;
+}
+h1{
+    font-size: 150%;
+}
+h2{
+    font-size: 1.em;
+}
