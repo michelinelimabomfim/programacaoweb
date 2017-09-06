@@ -1,0 +1,25 @@
+body {
+    color: blueviolet;
+    font-family: arial;
+    
+    
+}
+
+p{
+    color: red;
+    border: 1px solid gray;
+    
+}
+
+em{
+    color: aquamarine;
+    border: 1px solid gray;
+}
+h1,h2 {
+    color: red;
+    border: 1px solid orange;
+    font-family: arial;
+    
+}
+
+ 
